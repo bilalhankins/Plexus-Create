@@ -4,7 +4,6 @@ import React from "react"
 import DTProjectCard from "../../components/cards/desktop/DTProjectCard";
 import MBProjectCard from "../../components/cards/mobile/MBProjectCard";
 import LoadingAnimation from "../../components/loading";
-// import { ProjectCard } from "../../components/projects/ProjectCard";
 import { useProjectsQuery } from "../../generated/graphql";
 
 const ProjectsView: React.FC<unknown> = (): JSX.Element => {
